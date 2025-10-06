@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Universitas Kucing</title>
+    <link rel="stylesheet" href="css/miaw.css">
 </head>
 <body>
 
-    <header>
-        <h1 align="center">Universitas Kucing 🐾</h1>
+    <header class="site-header">
+        <h1 class="site-title">Universitas Kucing 🐾</h1>
     </header>
 
     <nav>
@@ -24,12 +25,12 @@
         </ul>
     </nav>
 
-    <main>
+    <main class="container">
 
         <!-- Profil Universitas Kucing -->
-        <section id="profil">
+        <section id="profil" class="section profile">
             <h2>Profil Universitas Kucing</h2>
-            <p align="justify">
+            <p class="text-justify">
                 Universitas Kucing adalah kampus imajinatif yang didedikasikan untuk pendidikan, penelitian, dan pengembangan dunia kucing. Berdiri sejak 2020, universitas ini menjadi pusat inovasi dan pengetahuan tentang kucing dari seluruh dunia. Kampus ini memiliki area taman bermain, laboratorium riset perilaku kucing, serta asrama khusus untuk mahasiswa dan kucing peliharaan mereka.
             </p>
             <ul>
@@ -40,14 +41,14 @@
                 <li>Jumlah Mahasiswa: 2.500 (termasuk 300 kucing)</li>
                 <li>Fasilitas: Perpustakaan Catnip, Klinik Hewan, Cat Café, Studio Musik Kucing, dan WiFi gratis di seluruh area kampus</li>
             </ul>
-            <img src="img/berry-college.jpg" alt="Gedung Universitas Kucing">
-            <img src="https://i.pinimg.com/originals/67/cb/3a/67cb3afc0c74432ed6bb48a7b276d34f.jpg" alt="Taman Kampus" width="200">
-            <img src="https://koppiz.com/wp-content/uploads/2022/07/18-300x299.jpg" alt="Asrama Kucing" width="200">
+            <img class="responsive-img" src="img/berry-college.jpg" alt="Gedung Universitas Kucing">
+            <img class="responsive-img" src="https://i.pinimg.com/originals/67/cb/3a/67cb3afc0c74432ed6bb48a7b276d34f.jpg" alt="Taman Kampus" width="200">
+            <img class="responsive-img" src="https://koppiz.com/wp-content/uploads/2022/07/18-300x299.jpg" alt="Asrama Kucing" width="200">
         </section>
         <hr>
 
         <!-- Fakultas dan Program Studi -->
-        <section id="fakultas">
+        <section id="fakultas" class="section fakultas">
             <h2>🎓 Fakultas & Program Studi</h2>
             <p>Universitas Kucing memiliki beberapa fakultas unik, di antaranya:</p>
             <ol>
@@ -72,7 +73,7 @@
         <hr>
 
         <!-- Pendaftaran -->
-        <section id="pendaftaran">
+        <section id="pendaftaran" class="section pendaftaran">
             <h2>📝 Pendaftaran</h2>
             <p>Pendaftaran mahasiswa baru Universitas Kucing dibuka setiap awal semester. Calon mahasiswa (baik manusia maupun kucing) dapat mendaftar secara online atau datang langsung ke kampus.</p>
             <ul>
@@ -81,78 +82,99 @@
                 <li>Mengikuti seleksi: tes keaktifan bermain, tes mengeong, dan wawancara dengan dosen kucing senior</li>
             </ul>
             <h4>Formulir Pendaftaran Mahasiswa</h4>
-            <form>
-                <b>Isilah Formulir di bawah ini dengan benar</b><br>
-                1. Nama &ensp;: &ensp;<input type="text" name="tnama"><br>
-                2. Tempat Lahir &ensp;: &ensp;<input type="text" name="ttempatlahir"><br>
-                3. Tanggal Lahir &ensp;: &ensp;<input type="date" name="ttgllahir"><br>
-                4. Alamat&ensp;: <br>
-                <textarea name="talamat" rows="4" cols="50"></textarea><br>
-                5. Email&ensp;:&ensp; <input type="email" name="temail"><br>
-                6. Kota/Kabupaten&ensp;:&ensp;
-                <select name='kota_kabupaten'>
-                    <option value='1'>Kota Semarang</option>
-                    <option value='2'>Kapupaten Semarang</option>
-                    <option value='3'>Kapupaten Demak</option>
-                    <option value='2'>Kapupaten Kendal</option>
-                    <option value='2'>Kapupaten Pekalongan</option>
-                </select><br>
-                7. Provinsi&ensp;:
-                <select name="provinsi">
-                    <option value="aceh">Aceh</option>
-                    <option value="sumatera-utara">Sumatera Utara</option>
-                    <option value="sumatera-barat">Sumatera Barat</option>
-                    <option value="riau">Riau</option>
-                    <option value="kepulauan-riau">Kepulauan Riau</option>
-                    <option value="jambi">Jambi</option>
-                    <option value="bengkulu">Bengkulu</option>
-                    <option value="sumatera-selatan">Sumatera Selatan</option>
-                    <option value="kepulauan-bangka-belitung">Kepulauan Bangka Belitung</option>
-                    <option value="lampung">Lampung</option>
-                    <option value="banten">Banten</option>
-                    <option value="dki-jakarta">DKI Jakarta</option>
-                    <option value="jawa-barat">Jawa Barat</option>
-                    <option value="jawa-tengah">Jawa Tengah</option>
-                    <option value="di-yogyakarta">DI Yogyakarta</option>
-                    <option value="jawa-timur">Jawa Timur</option>
-                    <option value="bali">Bali</option>
-                    <option value="nusa-tenggara-barat">Nusa Tenggara Barat</option>
-                    <option value="nusa-tenggara-timur">Nusa Tenggara Timur</option>
-                    <option value="kalimantan-barat">Kalimantan Barat</option>
-                    <option value="kalimantan-tengah">Kalimantan Tengah</option>
-                    <option value="kalimantan-selatan">Kalimantan Selatan</option>
-                    <option value="kalimantan-timur">Kalimantan Timur</option>
-                    <option value="kalimantan-utara">Kalimantan Utara</option>
-                    <option value="sulawesi-utara">Sulawesi Utara</option>
-                    <option value="gorontalo">Gorontalo</option>
-                    <option value="sulawesi-tengah">Sulawesi Tengah</option>
-                    <option value="sulawesi-barat">Sulawesi Barat</option>
-                    <option value="sulawesi-selatan">Sulawesi Selatan</option>
-                    <option value="sulawesi-tenggara">Sulawesi Tenggara</option>
-                    <option value="maluku">Maluku</option>
-                    <option value="maluku-utara">Maluku Utara</option>
-                    <option value="papua-barat">Papua Barat</option>
-                    <option value="papua">Papua</option>
-                    <option value="papua-tengah">Papua Tengah</option>
-                    <option value="papua-pegunungan">Papua Pegunungan</option>
-                    <option value="papua-selatan">Papua Selatan</option>
-                    <option value="papua-barat-daya">Papua Barat Daya</option>
-                </select>
-                <br>
-                8. Unggah Halaman depan Ijazah terakhir : <input type="file">
-                <br>
-                <h4>Totorial Pendaftaran Mahasiswa Baru</h4> 
-                <video width='320' height='240' controls> <source src='/video/video1_php.mp4' 
-                    type='video/mp4'>Browser Anda tidak mendukung elemen video.
-                </video>
-                <br>
-                <br>
-                <audio controls>
-                    <source src='/video/PHP 2022-05-21 21-33-29-914.mp4.wav' type='audio/mpeg'>Browser Anda tidak mendukung elemen audio.
-                </audio>
-                <br>
-                <input type="submit" value="Kirim">    
-                <br>
+            <form class="form-registration">
+                <p class="form-note"><strong>Isilah Formulir di bawah ini dengan benar</strong></p>
+                <div class="form-group">
+                    <label for="tnama">1. Nama</label>
+                    <input id="tnama" type="text" name="tnama">
+                </div>
+                <div class="form-group">
+                    <label for="ttempatlahir">2. Tempat Lahir</label>
+                    <input id="ttempatlahir" type="text" name="ttempatlahir">
+                </div>
+                <div class="form-group">
+                    <label for="ttgllahir">3. Tanggal Lahir</label>
+                    <input id="ttgllahir" type="date" name="ttgllahir">
+                </div>
+                <div class="form-group">
+                    <label for="talamat">4. Alamat</label>
+                    <textarea id="talamat" name="talamat" rows="4" cols="50"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="temail">5. Email</label>
+                    <input id="temail" type="email" name="temail">
+                </div>
+                <div class="form-group">
+                    <label for="kota_kabupaten">6. Kota/Kabupaten</label>
+                    <select id="kota_kabupaten" name="kota_kabupaten">
+                        <option value="1">Kota Semarang</option>
+                        <option value="2">Kabupaten Semarang</option>
+                        <option value="3">Kabupaten Demak</option>
+                        <option value="4">Kabupaten Kendal</option>
+                        <option value="5">Kabupaten Pekalongan</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="provinsi">7. Provinsi</label>
+                    <select id="provinsi" name="provinsi">
+                        <option value="aceh">Aceh</option>
+                        <option value="sumatera-utara">Sumatera Utara</option>
+                        <option value="sumatera-barat">Sumatera Barat</option>
+                        <option value="riau">Riau</option>
+                        <option value="kepulauan-riau">Kepulauan Riau</option>
+                        <option value="jambi">Jambi</option>
+                        <option value="bengkulu">Bengkulu</option>
+                        <option value="sumatera-selatan">Sumatera Selatan</option>
+                        <option value="kepulauan-bangka-belitung">Kepulauan Bangka Belitung</option>
+                        <option value="lampung">Lampung</option>
+                        <option value="banten">Banten</option>
+                        <option value="dki-jakarta">DKI Jakarta</option>
+                        <option value="jawa-barat">Jawa Barat</option>
+                        <option value="jawa-tengah">Jawa Tengah</option>
+                        <option value="di-yogyakarta">DI Yogyakarta</option>
+                        <option value="jawa-timur">Jawa Timur</option>
+                        <option value="bali">Bali</option>
+                        <option value="nusa-tenggara-barat">Nusa Tenggara Barat</option>
+                        <option value="nusa-tenggara-timur">Nusa Tenggara Timur</option>
+                        <option value="kalimantan-barat">Kalimantan Barat</option>
+                        <option value="kalimantan-tengah">Kalimantan Tengah</option>
+                        <option value="kalimantan-selatan">Kalimantan Selatan</option>
+                        <option value="kalimantan-timur">Kalimantan Timur</option>
+                        <option value="kalimantan-utara">Kalimantan Utara</option>
+                        <option value="sulawesi-utara">Sulawesi Utara</option>
+                        <option value="gorontalo">Gorontalo</option>
+                        <option value="sulawesi-tengah">Sulawesi Tengah</option>
+                        <option value="sulawesi-barat">Sulawesi Barat</option>
+                        <option value="sulawesi-selatan">Sulawesi Selatan</option>
+                        <option value="sulawesi-tenggara">Sulawesi Tenggara</option>
+                        <option value="maluku">Maluku</option>
+                        <option value="maluku-utara">Maluku Utara</option>
+                        <option value="papua-barat">Papua Barat</option>
+                        <option value="papua">Papua</option>
+                        <option value="papua-tengah">Papua Tengah</option>
+                        <option value="papua-pegunungan">Papua Pegunungan</option>
+                        <option value="papua-selatan">Papua Selatan</option>
+                        <option value="papua-barat-daya">Papua Barat Daya</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="ijazah">8. Unggah Halaman depan Ijazah terakhir</label>
+                    <input id="ijazah" type="file" name="ijazah">
+                </div>
+                <div class="media-group">
+                    <h4>Totorial Pendaftaran Mahasiswa Baru</h4>
+                    <video class="media-video" width="320" height="240" controls>
+                        <source src="/video/video1_php.mp4" type="video/mp4">
+                        Browser Anda tidak mendukung elemen video.
+                    </video>
+                    <audio class="media-audio" controls>
+                        <source src="/video/PHP 2022-05-21 21-33-29-914.mp4.wav" type="audio/mpeg">
+                        Browser Anda tidak mendukung elemen audio.
+                    </audio>
+                </div>
+                <div class="form-actions">
+                    <input type="submit" value="Kirim">
+                </div>
             </form>
             <p><b>Tips:</b> Kucing yang membawa mainan favorit saat seleksi biasanya lebih percaya diri!</p>
             <br><a href="#top">Kembali ke Atas</a>
@@ -160,49 +182,68 @@
         <hr>
 
         <!-- Pendaftaran Mahasiswa Lengkap -->
-        <section id="pendaftaran-lengkap">
-           <h3>Pendaftaran Mahasiswa</h3> 
-            <form>
+        <section id="pendaftaran-lengkap" class="section pendaftaran-lengkap">
+           <h3>Pendaftaran Mahasiswa</h3>
+            <form class="form-registration">
                <h3>Isilah Formulir dibawah ini dengan benar</h3>
-                1. Nama &ensp;: &ensp;<input type="text" name="tnama"><br>
-                2. Tempat Lahir &ensp;: &ensp;<input type="text" name="ttempatlahir"><br>
-                3. Tanggal Lahir &ensp;: &ensp;<input type="date" name="ttgllahir"><br>
-                4. Alamat&ensp;: <br>
-                <textarea name="talamat" rows="4" cols="50"></textarea><br>
-                5. Email&ensp;:&ensp; <input type="email" name="temail"><br>
-                6. Kota/Kabupaten&ensp;:&ensp;
-                <select name='kota_kabupaten'>
-                    <option value='1'>Kota Semarang</option>
-                    <option value='2'>Kapupaten Semarang</option>
-                    <option value='3'>Kapupaten Demak</option>
-                    <option value='2'>Kapupaten Kendal</option>
-                    <option value='2'>Kapupaten Pekalongan</option>
-                </select><br>
-                7. Propinsi&ensp;:
-                <select name='propinsi'>
-                    <option value='1'>Jawa Tengah</option>
-                    <option value='2'>Jawa Barat</option>
-                    <option value='3'>Jawa Timur</option>
-                    <option value='4'>Papua</option>
-                </select>
-                <br>
-                8. Unggah Halaman depan Ijazah terakhir : <input type="file">
-                <br>
-                <h4>Totorial Pendaftaran Mahasiswa Baru</h4> 
-                <video width='320' height='240' controls> <source src='/video/video1_php.mp4' 
-                    type='video/mp4'>Browser Anda tidak mendukung elemen video.
-                </video>
-                <br>
-                <br>
-                <audio controls>
-                    <source src='/video/PHP 2022-05-21 21-33-29-914.mp4.wav' type='audio/mpeg'>Browser Anda tidak mendukung elemen audio.
-                </audio>
-                <br>
-                <input type="submit" value="Kirim">    
-                <br>
-            </form>    
-                <br><a href="#top">Kembali ke Atas</a>
-        </section>    
+                <div class="form-group">
+                    <label>1. Nama</label>
+                    <input type="text" name="tnama">
+                </div>
+                <div class="form-group">
+                    <label>2. Tempat Lahir</label>
+                    <input type="text" name="ttempatlahir">
+                </div>
+                <div class="form-group">
+                    <label>3. Tanggal Lahir</label>
+                    <input type="date" name="ttgllahir">
+                </div>
+                <div class="form-group">
+                    <label>4. Alamat</label>
+                    <textarea name="talamat" rows="4" cols="50"></textarea>
+                </div>
+                <div class="form-group">
+                    <label>5. Email</label>
+                    <input type="email" name="temail">
+                </div>
+                <div class="form-group">
+                    <label>6. Kota/Kabupaten</label>
+                    <select name='kota_kabupaten'>
+                        <option value='1'>Kota Semarang</option>
+                        <option value='2'>Kabupaten Semarang</option>
+                        <option value='3'>Kabupaten Demak</option>
+                        <option value='4'>Kabupaten Kendal</option>
+                        <option value='5'>Kabupaten Pekalongan</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>7. Propinsi</label>
+                    <select name='propinsi'>
+                        <option value='1'>Jawa Tengah</option>
+                        <option value='2'>Jawa Barat</option>
+                        <option value='3'>Jawa Timur</option>
+                        <option value='4'>Papua</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>8. Unggah Halaman depan Ijazah terakhir</label>
+                    <input type="file">
+                </div>
+                <div class="media-group">
+                    <h4>Totorial Pendaftaran Mahasiswa Baru</h4>
+                    <video class="media-video" width='320' height='240' controls>
+                        <source src='/video/video1_php.mp4' type='video/mp4'>Browser Anda tidak mendukung elemen video.
+                    </video>
+                    <audio class="media-audio" controls>
+                        <source src='/video/PHP 2022-05-21 21-33-29-914.mp4.wav' type='audio/mpeg'>Browser Anda tidak mendukung elemen audio.
+                    </audio>
+                </div>
+                <div class="form-actions">
+                    <input type="submit" value="Kirim">
+                </div>
+                <br><a href="#top" class="back-to-top">Kembali ke Atas</a>
+            </form>
+        </section>
         <br>
 
         <!-- Konsultasi -->
