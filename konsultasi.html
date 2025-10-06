@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universitas Kucing</title>
+</head>
+<body>
+
+    <header>
+        <h1 align="center">Konsultasi Universitas Kucing 🐾</h1>
+    </header>
+
+    <nav>
+        <table border="1" cellspacing="0" cellpadding="8" align="center">
+            <tr>
+                <td><a href="miaw.html">Beranda</a></td>
+                <td><a href="konsultasi.html">Konsultasi</a></td>
+            </tr>
+        </table>
+    </nav>
+
+        <main>
+        <!-- Konsultasi -->
+        <section id="konsultasi">
+            <h2>💬 Konsultasi</h2>
+            <p>Mahasiswa Universitas Kucing dapat berkonsultasi dengan dosen, dokter hewan, atau konselor kucing untuk membahas akademik, kesehatan, dan pengembangan diri. Konsultasi dapat dilakukan secara langsung di kampus, melalui email, atau chat WhatsApp kampus.</p>
+            <ul>
+                <li>Konsultasi akademik: Senin–Jumat, 08.00–16.00 (Ruang 101, email: akademik@univkucing.ac.id)</li>
+                <li>Konsultasi kesehatan: Setiap hari, 09.00–12.00 (Klinik Hewan Kampus, WhatsApp: 0812-1234-5678)</li>
+                <li>Konsultasi perilaku: Kamis, 13.00–15.00 (Ruang Konseling, chat: @konselor.kucing)</li>
+            </ul>
+            <h4>Form Konsultasi Online</h4>
+            <form action="#" method="post">
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama" required><br><br>
+                <label for="topik">Topik:</label>
+                <select id="topik" name="topik" required>
+                    <option value="">-- Pilih Topik --</option>
+                    <option value="akademik">Akademik</option>
+                    <option value="kesehatan">Kesehatan</option>
+                    <option value="perilaku">Perilaku</option>
+                </select><br><br>
+                <label for="pesan">Pesan:</label><br>
+                <textarea id="pesan" name="pesan" rows="3" cols="30" required></textarea><br><br>
+                <input type="submit" value="Kirim">
+            </form>
+            <p><b>Contoh pertanyaan:</b> "Bagaimana cara membuat kucing lebih aktif belajar?"</p>
+        </section>
+
+    </main>
+
+    <footer align="center">
+        <p>© 2025 - Konsultasi Universitas Kucing 🐱</p>
+    </footer>
+
+     <!--
+     ====== Cara Upload Folder Ini ke GitHub Menggunakan Git ======
+     1. Buka terminal (Command Prompt/PowerShell) di folder projek_3
+     2. Inisialisasi git repository:
+         git init
+     3. Tambahkan semua file ke staging area:
+         git add .
+     4. Commit perubahan:
+         git commit -m "Initial commit"
+     5. Buat repository baru di GitHub (misal: nama-repo)
+     6. Hubungkan folder lokal ke repository GitHub:
+         git remote add origin https://github.com/jnbla/projek_3.git
+     7. Push ke GitHub:
+         git branch -M main
+         git push -u origin main
+
+     Catatan:
+     - Ganti USERNAME dan nama-repo sesuai akun dan nama repository Anda.
+     - Jika diminta login, masukkan username dan personal access token GitHub Anda.
+     - Untuk update berikutnya, cukup lakukan:
+         git add .
+         git commit -m "pesan commit"
+         git push
+     -->
+    
+</body>
+</html>

@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universitas Kucing</title>
+</head>
+<body>
+
+    <header>
+        <h1 align="center">Universitas Kucing 🐾</h1>
+    </header>
+
+    <nav>
+        <table border="1" cellspacing="0" cellpadding="8" align="center">
+            <tr>
+                <td><a href="#profil">Profil</a></td>
+                <td><a href="#fakultas">Fakultas & Prodi</a></td>
+                <td><a href="#pendaftaran">Pendaftaran</a></td>
+                <td><a href="konsultasi.html">Konsultasi</a></td>
+                <td><a href="#berita">Berita</a></td>
+                <td><a href="#galeri.html">Galeri</a></td>
+            </tr>
+        </table>
+    </nav>
+
+    <main>
+
+        <!-- Profil Universitas Kucing -->
+        <section id="profil">
+            <h2>Profil Universitas Kucing</h2>
+            <p align="justify">
+                Universitas Kucing adalah kampus imajinatif yang didedikasikan untuk pendidikan, penelitian, dan pengembangan dunia kucing. Berdiri sejak 2020, universitas ini menjadi pusat inovasi dan pengetahuan tentang kucing dari seluruh dunia. Kampus ini memiliki area taman bermain, laboratorium riset perilaku kucing, serta asrama khusus untuk mahasiswa dan kucing peliharaan mereka.
+            </p>
+            <ul>
+                <li>Nama: <b>Universitas Kucing</b></li>
+                <li>Tahun Berdiri: 2020</li>
+                <li>Akreditasi: A (Asosiasi Kucing Dunia)</li>
+                <li>Alamat: Jl. Meong Raya No. 9, Kota Catnip</li>
+                <li>Jumlah Mahasiswa: 2.500 (termasuk 300 kucing)</li>
+                <li>Fasilitas: Perpustakaan Catnip, Klinik Hewan, Cat Café, Studio Musik Kucing, dan WiFi gratis di seluruh area kampus</li>
+            </ul>
+            <img src="img/berry-college.jpg" alt="Gedung Universitas Kucing">
+            <img src="https://i.pinimg.com/originals/67/cb/3a/67cb3afc0c74432ed6bb48a7b276d34f.jpg" alt="Taman Kampus" width="200">
+            <img src="https://koppiz.com/wp-content/uploads/2022/07/18-300x299.jpg" alt="Asrama Kucing" width="200">
+        </section>
+        <hr>
+
+        <!-- Fakultas dan Program Studi -->
+        <section id="fakultas">
+            <h2>🎓 Fakultas & Program Studi</h2>
+            <p>Universitas Kucing memiliki beberapa fakultas unik, di antaranya:</p>
+            <ol>
+                <li>
+                    <b>Fakultas Ilmu Perkucingan</b>
+                    <ul>
+                        <li>Prodi Perilaku Kucing<br><i>Contoh mata kuliah:</i> Psikologi Kucing, Komunikasi Meong, Praktikum Main Bola Benang</li>
+                        <li>Prodi Nutrisi & Kesehatan Kucing<br><i>Contoh mata kuliah:</i> Gizi Catnip, Ilmu Pakan, Praktek Grooming</li>
+                    </ul>
+                </li>
+                <li>
+                    <b>Fakultas Seni & Budaya Kucing</b>
+                    <ul>
+                        <li>Prodi Sejarah Kucing Dunia<br><i>Contoh mata kuliah:</i> Kucing di Mesir Kuno, Kucing dalam Sastra</li>
+                        <li>Prodi Musik & Tari Kucing<br><i>Contoh mata kuliah:</i> Orkestra Meong, Tari Ekor, Workshop TikTok Kucing</li>
+                    </ul>
+                </li>
+            </ol>
+            <p><b>Testimoni Mahasiswa:</b></p>
+            <blockquote>"Belajar di sini seru! Setiap hari bisa main sama kucing dan belajar hal baru tentang mereka." – Mia, Mahasiswa Prodi Perilaku Kucing</blockquote>
+        </section>
+        <hr>
+
+        <!-- Pendaftaran -->
+        <section id="pendaftaran">
+            <h2>📝 Pendaftaran</h2>
+            <p>Pendaftaran mahasiswa baru Universitas Kucing dibuka setiap awal semester. Calon mahasiswa (baik manusia maupun kucing) dapat mendaftar secara online atau datang langsung ke kampus.</p>
+            <ul>
+                <li>Mengisi formulir pendaftaran (khusus kucing wajib melampirkan foto lucu dan sertifikat vaksin)</li>
+                <li>Melampirkan dokumen persyaratan (rapor, sertifikat vaksin, dsb)</li>
+                <li>Mengikuti seleksi: tes keaktifan bermain, tes mengeong, dan wawancara dengan dosen kucing senior</li>
+            </ul>
+            <h4>Formulir Pendaftaran Mahasiswa</h4>
+            <form>
+                <b>Isilah Formulir di bawah ini dengan benar</b><br>
+                1. Nama &ensp;: &ensp;<input type="text" name="tnama"><br>
+                2. Tempat Lahir &ensp;: &ensp;<input type="text" name="ttempatlahir"><br>
+                3. Tanggal Lahir &ensp;: &ensp;<input type="date" name="ttgllahir"><br>
+                4. Alamat&ensp;: <br>
+                <textarea name="talamat" rows="4" cols="50"></textarea><br>
+                5. Email&ensp;:&ensp; <input type="email" name="temail"><br>
+                6. Kota/Kabupaten&ensp;:&ensp;
+                <select name='kota_kabupaten'>
+                    <option value='1'>Kota Semarang</option>
+                    <option value='2'>Kapupaten Semarang</option>
+                    <option value='3'>Kapupaten Demak</option>
+                    <option value='2'>Kapupaten Kendal</option>
+                    <option value='2'>Kapupaten Pekalongan</option>
+                </select><br>
+                7. Provinsi&ensp;:
+                <select name="provinsi">
+                    <option value="aceh">Aceh</option>
+                    <option value="sumatera-utara">Sumatera Utara</option>
+                    <option value="sumatera-barat">Sumatera Barat</option>
+                    <option value="riau">Riau</option>
+                    <option value="kepulauan-riau">Kepulauan Riau</option>
+                    <option value="jambi">Jambi</option>
+                    <option value="bengkulu">Bengkulu</option>
+                    <option value="sumatera-selatan">Sumatera Selatan</option>
+                    <option value="kepulauan-bangka-belitung">Kepulauan Bangka Belitung</option>
+                    <option value="lampung">Lampung</option>
+                    <option value="banten">Banten</option>
+                    <option value="dki-jakarta">DKI Jakarta</option>
+                    <option value="jawa-barat">Jawa Barat</option>
+                    <option value="jawa-tengah">Jawa Tengah</option>
+                    <option value="di-yogyakarta">DI Yogyakarta</option>
+                    <option value="jawa-timur">Jawa Timur</option>
+                    <option value="bali">Bali</option>
+                    <option value="nusa-tenggara-barat">Nusa Tenggara Barat</option>
+                    <option value="nusa-tenggara-timur">Nusa Tenggara Timur</option>
+                    <option value="kalimantan-barat">Kalimantan Barat</option>
+                    <option value="kalimantan-tengah">Kalimantan Tengah</option>
+                    <option value="kalimantan-selatan">Kalimantan Selatan</option>
+                    <option value="kalimantan-timur">Kalimantan Timur</option>
+                    <option value="kalimantan-utara">Kalimantan Utara</option>
+                    <option value="sulawesi-utara">Sulawesi Utara</option>
+                    <option value="gorontalo">Gorontalo</option>
+                    <option value="sulawesi-tengah">Sulawesi Tengah</option>
+                    <option value="sulawesi-barat">Sulawesi Barat</option>
+                    <option value="sulawesi-selatan">Sulawesi Selatan</option>
+                    <option value="sulawesi-tenggara">Sulawesi Tenggara</option>
+                    <option value="maluku">Maluku</option>
+                    <option value="maluku-utara">Maluku Utara</option>
+                    <option value="papua-barat">Papua Barat</option>
+                    <option value="papua">Papua</option>
+                    <option value="papua-tengah">Papua Tengah</option>
+                    <option value="papua-pegunungan">Papua Pegunungan</option>
+                    <option value="papua-selatan">Papua Selatan</option>
+                    <option value="papua-barat-daya">Papua Barat Daya</option>
+                </select>
+                <br>
+                8. Unggah Halaman depan Ijazah terakhir : <input type="file">
+                <br>
+                <h4>Totorial Pendaftaran Mahasiswa Baru</h4> 
+                <video width='320' height='240' controls> <source src='/video/video1_php.mp4' 
+                    type='video/mp4'>Browser Anda tidak mendukung elemen video.
+                </video>
+                <br>
+                <br>
+                <audio controls>
+                    <source src='/video/PHP 2022-05-21 21-33-29-914.mp4.wav' type='audio/mpeg'>Browser Anda tidak mendukung elemen audio.
+                </audio>
+                <br>
+                <input type="submit" value="Kirim">    
+                <br>
+            </form>
+            <p><b>Tips:</b> Kucing yang membawa mainan favorit saat seleksi biasanya lebih percaya diri!</p>
+            <br><a href="#top">Kembali ke Atas</a>
+        </section>
+        <hr>
+
+        <!-- Pendaftaran Mahasiswa Lengkap -->
+        <section id="pendaftaran-lengkap">
+           <h3>Pendaftaran Mahasiswa</h3> 
+            <form>
+               <h3>Isilah Formulir dibawah ini dengan benar</h3>
+                1. Nama &ensp;: &ensp;<input type="text" name="tnama"><br>
+                2. Tempat Lahir &ensp;: &ensp;<input type="text" name="ttempatlahir"><br>
+                3. Tanggal Lahir &ensp;: &ensp;<input type="date" name="ttgllahir"><br>
+                4. Alamat&ensp;: <br>
+                <textarea name="talamat" rows="4" cols="50"></textarea><br>
+                5. Email&ensp;:&ensp; <input type="email" name="temail"><br>
+                6. Kota/Kabupaten&ensp;:&ensp;
+                <select name='kota_kabupaten'>
+                    <option value='1'>Kota Semarang</option>
+                    <option value='2'>Kapupaten Semarang</option>
+                    <option value='3'>Kapupaten Demak</option>
+                    <option value='2'>Kapupaten Kendal</option>
+                    <option value='2'>Kapupaten Pekalongan</option>
+                </select><br>
+                7. Propinsi&ensp;:
+                <select name='propinsi'>
+                    <option value='1'>Jawa Tengah</option>
+                    <option value='2'>Jawa Barat</option>
+                    <option value='3'>Jawa Timur</option>
+                    <option value='4'>Papua</option>
+                </select>
+                <br>
+                8. Unggah Halaman depan Ijazah terakhir : <input type="file">
+                <br>
+                <h4>Totorial Pendaftaran Mahasiswa Baru</h4> 
+                <video width='320' height='240' controls> <source src='/video/video1_php.mp4' 
+                    type='video/mp4'>Browser Anda tidak mendukung elemen video.
+                </video>
+                <br>
+                <br>
+                <audio controls>
+                    <source src='/video/PHP 2022-05-21 21-33-29-914.mp4.wav' type='audio/mpeg'>Browser Anda tidak mendukung elemen audio.
+                </audio>
+                <br>
+                <input type="submit" value="Kirim">    
+                <br>
+            </form>    
+                <br><a href="#top">Kembali ke Atas</a>
+        </section>    
+        <br>
+
+        <!-- Konsultasi -->
+        <section id="konsultasi">
+            <h2>💬 Konsultasi</h2>
+            <p>Mahasiswa Universitas Kucing dapat berkonsultasi dengan dosen, dokter hewan, atau konselor kucing untuk membahas akademik, kesehatan, dan pengembangan diri. Konsultasi bisa dilakukan secara langsung di ruang konsultasi, melalui email, atau chat WhatsApp kampus.</p>
+            <ul>
+                <li>Konsultasi akademik: Senin–Jumat, 08.00–16.00 (Ruang 101, email: akademik@univkucing.ac.id)</li>
+                <li>Konsultasi kesehatan: Setiap hari, 09.00–12.00 (Klinik Hewan Kampus, WhatsApp: 0812-1234-5678)</li>
+                <li>Konsultasi perilaku: Kamis, 13.00–15.00 (Ruang Konseling, chat: @konselor.kucing)</li>
+            </ul>
+            <h4>Form Konsultasi Online</h4>
+            <form>
+                Nama: <input type="text" name="nama"><br>
+                Topik: <select name="topik">
+                    <option value="akademik">Akademik</option>
+                    <option value="kesehatan">Kesehatan</option>
+                    <option value="perilaku">Perilaku</option>
+                </select><br>
+                Pesan: <textarea name="pesan" rows="3" cols="30"></textarea><br>
+                <input type="submit" value="Kirim">
+            </form>
+            <p><b>Contoh pertanyaan:</b> "Bagaimana cara membuat kucing lebih aktif belajar?"</p>
+        </section>
+        <hr>
+
+        <!-- Berita -->
+        <section id="berita">
+            <h2>📰 Berita</h2>
+            <ul>
+                <li><b>29 Sep 2025:</b> Universitas Kucing membuka program pertukaran pelajar dengan Cat University Jepang. <br><i>Foto kegiatan:</i> <img src="https://koppiz.com/wp-content/uploads/2022/07/18-300x299.jpg" alt="Pertukaran Pelajar" width="80"></li>
+                <li><b>15 Sep 2025:</b> Mahasiswa Universitas Kucing menjuarai lomba lari mengejar laser pointer tingkat dunia. <br><i>Juara: Meowster Felix (Fakultas Ilmu Perkucingan)</i></li>
+                <li><b>1 Sep 2025:</b> Seminar "Mengenal Bahasa Tubuh Kucing" sukses digelar di aula utama. <br><i>Pembicara:</i> Dr. Meong, M.PsiKucing</li>
+                <li><b>20 Agu 2025:</b> Cat Café kampus resmi dibuka, gratis catnip untuk pengunjung pertama!</li>
+            </ul>
+        </section>
+        <hr>
+
+        <!-- Galeri -->
+        <section id="galeri">
+            <h2>📷 Galeri Universitas Kucing</h2>
+            <p>Beberapa momen dan fasilitas di Universitas Kucing:</p>
+            <img src="img/berry-college.jpg" alt="Kampus Kucing 1" width="180">
+            <img src="https://i.pinimg.com/originals/67/cb/3a/67cb3afc0c74432ed6bb48a7b276d34f.jpg" alt="Kampus Kucing 2" width="180">
+            <img src="https://koppiz.com/wp-content/uploads/2022/07/18-300x299.jpg" alt="Kampus Kucing 3" width="180">
+            <img src="https://www.berry.edu/uploadedImages/Website/Content/visit-berry/visit-berry-1.jpg" alt="Kampus Kucing 4" width="180">
+            <br><br>
+            <video controls width="320">
+                <source src="video/Berry College Overview.mp4" type="video/mp4">
+                Browser Anda tidak mendukung pemutaran video.
+            </video>
+            <p><b>Galeri Mahasiswa:</b></p>
+            <ul>
+                <li><img src="https://cdn.pixabay.com/photo/2017/11/09/21/41/cat-2934720_1280.jpg" alt="Mahasiswa Kucing 1" width="80"> Meowmi, Ketua BEM</li>
+                <li><img src="https://cdn.pixabay.com/photo/2016/02/10/16/37/cat-1192026_1280.jpg" alt="Mahasiswa Kucing 2" width="80"> Tom, Juara Lomba Lari</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer align="center">
+        <p>© 2025 - Universitas Kucing 🐱</p>
+    </footer>
+
+     <!--
+     ====== Cara Upload Folder Ini ke GitHub Menggunakan Git ======
+     1. Buka terminal (Command Prompt/PowerShell) di folder projek_4
+     2. Inisialisasi git repository:
+         git init
+     3. Tambahkan semua file ke staging area:
+         git add .
+     4. Commit perubahan:
+         git commit -m "Initial commit"
+     5. Buat repository baru di GitHub (misal: nama-repo)
+     6. Hubungkan folder lokal ke repository GitHub:
+         git remote add origin https://github.com/jnbla/projek_3.git
+     7. Push ke GitHub:
+         git branch -M main
+         git push -u origin main
+
+     Catatan:
+     - Ganti USERNAME dan nama-repo sesuai akun dan nama repository Anda.
+     - Jika diminta login, masukkan username dan personal access token GitHub Anda.
+     - Untuk update berikutnya, cukup lakukan:
+         git add .
+         git commit -m "pesan commit"
+         git push
+     -->
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
